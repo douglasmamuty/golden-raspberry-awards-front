@@ -82,15 +82,6 @@ src/
 
 ---
 
-## 📌 TODO
-
-- Add unit and integration tests
-- Improve accessibility (a11y)
-- Add animations and transitions
-- Deploy with Docker or Firebase
-
----
-
 ## 🧑‍💻 Author
 
 Douglas Saldanha
