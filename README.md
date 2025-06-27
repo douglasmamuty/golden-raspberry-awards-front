@@ -84,10 +84,4 @@ src/
 Douglas Saldanha
 [github.com/seu-usuario](https://github.com/douglasmamuty)
 
----
-
-## 📄 License
-
-MIT
-
 ```
