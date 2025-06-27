@@ -29,7 +29,6 @@ Make sure you have:
 git clone https://github.com/seu-usuario/golden-raspberry-awards-front.git
 cd golden-raspberry-awards-front
 npm install
-```
 ````
 
 ### 🏃‍♂️ Run the App
@@ -64,20 +63,19 @@ src/
 
 ## 🔍 Features
 
-- 📊 Dashboard with movie statistics
-- 🎬 Movie list with filters and pagination
-- 🧭 Responsive navigation layout
-- 🌐 Integration with backend API
-- 🧪 Ready for test automation (Jest / Cypress friendly)
+* 📊 Dashboard with movie statistics
+* 🎬 Movie list with filters and pagination
+* 🧭 Responsive navigation layout
+* 🌐 Integration with backend API
 
 ---
 
 ## ✨ Highlights
 
-- Fully modular architecture
-- Component-based layout using Angular Material
-- Dynamic filters with reactive data binding
-- Built-in loading states and empty table messages
+* Fully modular architecture
+* Component-based layout using Angular Material
+* Dynamic filters with reactive data binding
+* Built-in loading states and empty table messages
 
 ---
 
