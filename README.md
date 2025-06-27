@@ -1,4 +1,3 @@
-````markdown
 # 🎬 Golden Raspberry Awards - Frontend
 
 This is the frontend application for the **Golden Raspberry Awards API**, built with **Angular 17**, **Standalone Components**, and **Angular Material**. The goal of this app is to explore and visualize movie data from the famous parody award.
