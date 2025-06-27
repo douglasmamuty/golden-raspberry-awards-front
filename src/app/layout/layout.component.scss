@@ -1,0 +1,16 @@
+.layout-container {
+  height: 100vh;
+
+  .main-content {
+    padding: 1rem;
+    background-color: #ffffff;
+    height: calc(100vh - 100px);
+    overflow: auto;
+  }
+}
+
+.custom-sidenav {
+  width: 180px; 
+  min-width: 180px;
+  max-width: 180px;
+}

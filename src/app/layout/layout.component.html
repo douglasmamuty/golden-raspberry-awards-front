@@ -1,0 +1,17 @@
+<mat-sidenav-container class="layout-container">
+  <mat-sidenav #sidenav mode="side" [(opened)]="isSidenavOpen" class="custom-sidenav">
+    <app-sidenav></app-sidenav>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header>
+      <button mat-icon-button (click)="toggleSidenav()" style="cursor: pointer;">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </app-header>
+
+    <main class="main-content">
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>

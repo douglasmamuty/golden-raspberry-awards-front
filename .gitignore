@@ -1,0 +1,48 @@
+# Angular build output
+/dist/
+/out-tsc/
+
+# Angular environment files (if any secrets)
+/src/environments/*.local.ts
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node dependencies
+/node_modules/
+
+# Compiled files
+*.js
+*.js.map
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Cache
+/.angular/cache/
+.angular/
+.cache/
+coverage/
+
+# Testing
+/coverage/
+karma-coverage/
+
+# Misc
+*.log
+*.tgz
+*.bak
+*.tmp
+
+# Optional: if using Husky or local scripts
+.husky/_/

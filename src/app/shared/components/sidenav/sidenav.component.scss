@@ -1,0 +1,45 @@
+.app-sidenav {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 32px);
+  background-color: #f8f9fa; 
+  color: #8a94a7;
+  padding: 1rem;
+  border-radius: 0px;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-weight: 500;
+
+    &:hover {
+      background-color: #f1f1f1;
+      border-radius: 4px;
+      padding: 0.5rem;
+    }
+
+    &.active {                
+        span, .icon { 
+            color: #1976d2;
+        }
+    }
+
+    span, .icon { 
+        color: #4f4f4f;
+    }
+  }
+
+}
+
+::ng-deep .mat-drawer {
+    border-radius: 0px;
+}
+
+::ng-deep .mat-mdc-list-item-unscoped-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
