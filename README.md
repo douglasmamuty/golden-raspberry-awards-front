@@ -1,7 +1,3 @@
-Here's a professional and clear `README.md` for your Angular project using standalone components and Angular Material:
-
----
-
 ````markdown
 # 🎬 Golden Raspberry Awards - Frontend
 
@@ -106,9 +102,4 @@ Douglas Saldanha
 
 MIT
 
-```
-
----
-
-Let me know if you'd like a version in Portuguese, or if you want to customize with deployment info (e.g., Firebase, Vercel, etc.).
 ```
