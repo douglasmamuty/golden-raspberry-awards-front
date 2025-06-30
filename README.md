@@ -82,4 +82,4 @@ src/
 ## 🧑‍💻 Author
 
 Douglas Saldanha
-[github.com/seu-usuario](https://github.com/douglasmamuty)
+[github.com/douglasmamuty](https://github.com/douglasmamuty)
