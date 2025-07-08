@@ -38,7 +38,7 @@
         <th mat-header-cell *matHeaderCellDef class="tHead">
           <span>Winner?</span> 
           <mat-form-field appearance="outline">
-            <mat-select placeholder="Winner?  " [(ngModel)]="filterWinner" (selectionChange)="loadMovies()">
+            <mat-select placeholder="Winner?  " [(ngModel)]="filterWinner" (selectionChange)="winnerChange()">
               <mat-option>All</mat-option>
               <mat-option [value]="true">Yes</mat-option>
               <mat-option [value]="false">No</mat-option>
