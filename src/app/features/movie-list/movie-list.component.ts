@@ -46,12 +46,16 @@ export class MovieListComponent implements OnInit {
 
   constructor(private movieService: MovieService) {
     this.yearChanged.pipe(debounceTime(1000)).subscribe((year) => {
-      if (year) this.loadMovies();
+      if (year) {
+        this.page = 0;
+        this.loadMovies();
+      }
     });
   }
 
   onYearChange(year: string) {
     const parsed = parseInt(year, 10);
+    this.page = 0;
 
     if (!year || isNaN(parsed)) {
       this.filterYear = undefined;
@@ -65,6 +69,11 @@ export class MovieListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.loadMovies();
+  }
+
+  winnerChange(): void {
+    this.page = 0;
     this.loadMovies();
   }
 
